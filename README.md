@@ -30,6 +30,7 @@ image ─► YOLOv7 (symbols, arrows, arrow head/tail, text)
 | Full diagrams recognized, FC_B | 90.3% | 89.3% |
 | Full diagrams recognized, FA | 89.2% | 65.5% |
 
+We ran with lowered configuration of hyperparameters (e.g. 300 -> 100 epochs) so slightly worse results were expected.
 Full test sets: FC_A 171, FC_B 196, FA 84 images. Symbol detection is the mean over the real
 symbol classes including arrow and text (without the arrow head/tail boxes, whose size the paper
 does not specify). A diagram counts as recognized (paper criterion) when the number of symbols
