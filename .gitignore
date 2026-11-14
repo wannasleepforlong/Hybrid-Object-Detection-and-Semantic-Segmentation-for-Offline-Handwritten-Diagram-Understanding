@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Large or generated files (not in git)
+# trained models: download from the Kaggle run output into weights/hdr/
+weights/
+*.pt
+*.safetensors
+# YOLOv7 clone (see README)
+third_party/
+# datasets and generated training data
+handwritten-diagram-datasets/
+data_yolo/
+data_work/
+out/

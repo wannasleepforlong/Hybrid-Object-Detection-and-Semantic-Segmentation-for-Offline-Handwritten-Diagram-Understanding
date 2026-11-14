@@ -1,0 +1,17 @@
+# Local (CPU) pipeline. Install torch/torchvision from the CPU index if needed.
+torch>=2.2
+torchvision>=0.17
+transformers>=4.40
+opencv-python>=4.9
+scikit-image>=0.22
+numpy>=1.26
+pillow>=10
+PyYAML>=6
+jiwer>=3
+pytest>=8
+
+# needed by YOLOv7's own code (third_party/yolov7) when loading the detector
+matplotlib>=3.7
+seaborn>=0.12
+pandas>=2.0
+tqdm>=4.60
