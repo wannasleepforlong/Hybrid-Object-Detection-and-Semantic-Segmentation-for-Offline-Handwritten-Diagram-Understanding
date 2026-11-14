@@ -6,6 +6,7 @@ included in this repository.
 
 It turns an image of a hand-drawn flowchart (or finite automaton) into a graph, and exports it as
 Mermaid, draw.io, a clean SVG redraw and an HTML report.
+
 <img width="563" height="590" alt="image" src="https://github.com/user-attachments/assets/1b7dd098-fdbf-4205-aa9b-4618289977eb" />
 
 ```
