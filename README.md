@@ -159,6 +159,7 @@ final weights, logs and metrics are kept.
 python -m hdr.eval.run_eval predict --datasets fca fcb fa   # runs the models once, caches outputs
 python -m hdr.eval.run_eval score   --datasets fca fcb fa   # metrics -> out/eval/results.json
 ```
+<img width="563" height="590" alt="image" src="https://github.com/user-attachments/assets/1b7dd098-fdbf-4205-aa9b-4618289977eb" />
 
 ## Tests
 
